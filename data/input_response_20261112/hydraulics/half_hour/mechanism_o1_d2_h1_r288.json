@@ -1,0 +1,11 @@
+{
+  "case_id": "mechanism_o1_d2_h1_r288",
+  "accepted": true,
+  "input_sha256": "11cf9f934c7bfba539a32453b7b589c5aa5b5b2b2da9d9cb7e13d372f546c4b8",
+  "seconds": 20.78336654091254,
+  "profiles": 150,
+  "max_balance_error_m": 6.4876e-06,
+  "cells": 400,
+  "dtmax_s": 5,
+  "print_spacing_s": 300
+}
