@@ -1,0 +1,14 @@
+{
+  "case_id": "boundary_confirmation_o1_020_d1_h2",
+  "accepted": true,
+  "input_sha256": "61c13d2e8a63bcf0b8ed108e068d8f523186a6320e56ad872ff0ad587b1e5543",
+  "seconds": 32.904906666022725,
+  "profiles": 52,
+  "max_balance_error_m": 1.1213e-05,
+  "cells": 400,
+  "dtmax_s": 5,
+  "print_spacing_s": 300,
+  "requested_input_sha256": "0385acb6cf97155cf99afc598e85b51988589b880055b21296ae314666a3e871",
+  "first_attempt_error": "TimeoutExpired(['hydrus', 'work/redistribution_20261112/hydrus/standard/boundary_confirmation_o1_020_d1_h2', '-1'], 89.99989908304997)",
+  "seconds_including_retry": 122.9641264580423
+}

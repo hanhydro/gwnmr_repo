@@ -1,0 +1,14 @@
+{
+  "case_id": "confirmation_o0_011_h2",
+  "accepted": true,
+  "input_sha256": "70258bfb9a17ccd7221dfb881fb4e1bab8d66fc9b732f0a8fd74102ee145f5d5",
+  "seconds": 37.66822200000752,
+  "profiles": 52,
+  "max_balance_error_m": 1.3664e-05,
+  "cells": 400,
+  "dtmax_s": 5,
+  "print_spacing_s": 300,
+  "requested_input_sha256": "56db95e8012ccffcf0031bd13058803ce9b293f0ca339450535e16a849fde353",
+  "first_attempt_error": "TimeoutExpired(['hydrus', 'work/redistribution_20261112/hydrus/standard/confirmation_o0_011_h2', '-1'], 89.99989841703791)",
+  "seconds_including_retry": 127.72613724996336
+}
