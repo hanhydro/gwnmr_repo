@@ -1,0 +1,14 @@
+{
+  "case_id": "mechanism_o0_d1_h1_r144",
+  "accepted": true,
+  "input_sha256": "37ac3c11f5c9150ee84471e814fe95f573fc02248fbfe37dcca5595577e6a2ac",
+  "seconds": 86.83738970803097,
+  "profiles": 52,
+  "max_balance_error_m": 4.495e-06,
+  "cells": 800,
+  "dtmax_s": 5,
+  "print_spacing_s": 300,
+  "requested_input_sha256": "512a3f34b3111c6d87ae8a88e87b517a152a7c0ffea9688fee3514c6f1ab0c5d",
+  "first_attempt_error": "TimeoutExpired(['hydrus', 'work/redistribution_20261112/hydrus/mesh800/mechanism_o0_d1_h1_r144', '-1'], 89.99987775005866)",
+  "seconds_including_retry": 177.20434854202904
+}
