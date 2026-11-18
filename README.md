@@ -14,7 +14,7 @@ python3 -m pip install -r requirements.txt
 sh reproduce.sh
 ```
 
-`reproduce.sh` unpacks the archived HYDRUS-1D files into `work/`, recalculates all summaries, and writes the figures to `figures/`. It took about one minute on the tested computer (macOS, Python 3.11.8). Set `PYTHON` to use a different interpreter.
+`reproduce.sh` unpacks the archived HYDRUS-1D files into `work/` and the nodal arrays into `data/redistribution_20261112/hydraulics/`, recalculates all summaries, and writes the figures to `figures/`. It took about one minute on the tested computer (macOS, Python 3.11.8). Set `PYTHON` to use a different interpreter.
 
 ## Outputs
 
@@ -37,9 +37,9 @@ Intermediate results are written to the same `data/` folders. Time is in hours a
 
 | File | Contents |
 |---|---|
-| `data/redistribution_20261112/native_outputs.zip` | HYDRUS-1D inputs (`SELECTOR.IN`, `PROFILE.DAT`, `ATMOSPH.IN`), outputs (`T_LEVEL.OUT`, `BALANCE.OUT`, `I_CHECK.OUT`), and run settings for all 646 runs |
+| `data/redistribution_20261112/native_outputs_*.zip` | HYDRUS-1D inputs (`SELECTOR.IN`, `PROFILE.DAT`, `ATMOSPH.IN`), outputs (`T_LEVEL.OUT`, `BALANCE.OUT`, `I_CHECK.OUT`), and run settings for all 646 runs, split into parts of less than 14 MB |
 | `data/redistribution_20261112/manifest.csv` | Layer order, interface depth, initial head, and input of each run |
-| `data/redistribution_20261112/hydraulics/`, `data/input_response_20261112/hydraulics/` | Nodal water content and pressure head of each run |
+| `data/redistribution_20261112/hydraulic_arrays_*.zip`, `data/input_response_20261112/hydraulics/` | Nodal water content and pressure head of each run |
 | `data/observation_kernel_full_100.npz` | Surface-NMR sensitivity kernels from full-field Bloch excitation, 100 ohm m |
 | `data/dephasing_model.npz` | Static frequency-offset integration |
 | `data/input_response_20261112/spatial_*.csv` | Refined upper-meter electromagnetic integration (Table S5) |

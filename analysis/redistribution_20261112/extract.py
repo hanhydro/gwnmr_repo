@@ -16,8 +16,12 @@ HOURS = np.array([0., 6., 24., 48., 72.])
 def native_bytes(path):
     if path.exists():
         return path.read_bytes()
-    with zipfile.ZipFile(OUT/'native_outputs.zip') as archive:
-        return archive.read(str(path.relative_to(STUDY)))
+    name = str(path.relative_to(STUDY))
+    for part in sorted(OUT.glob('native_outputs_*.zip')):
+        with zipfile.ZipFile(part) as archive:
+            if name in archive.namelist():
+                return archive.read(name)
+    raise FileNotFoundError(name)
 
 
 def read_tlevel(path, h):
