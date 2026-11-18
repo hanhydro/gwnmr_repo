@@ -1,0 +1,11 @@
+{
+  "case_id": "boundary_confirmation_o1_022_d1_h1",
+  "accepted": true,
+  "input_sha256": "d7ef1b538b49e11abcc1e85feb02fcb57aa528bede7bc2b88aea540416c75e0b",
+  "seconds": 14.377871999982744,
+  "profiles": 52,
+  "max_balance_error_m": 1.4529e-07,
+  "cells": 400,
+  "dtmax_s": 60.0,
+  "print_spacing_s": 300
+}
